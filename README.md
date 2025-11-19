@@ -28,7 +28,7 @@ To integrate Snizzors into your Compose Multiplatform project, follow these step
 
     ```kotlin
     // In your module's build.gradle.kts
-    iosMain {
+    iosMain.dependencies {
       implementation("com.infiniteretry.snizzors:snizzors:1.0.0")
     }
     ```
